@@ -1,0 +1,12 @@
+12/8/2021 -- 14:36:17 - <Notice> - This is Suricata version 6.0.3 RELEASE running in SYSTEM mode
+12/8/2021 -- 14:36:17 - <Info> - CPUs/cores online: 1
+12/8/2021 -- 14:36:17 - <Config> - Adding interface eth0 from config file
+12/8/2021 -- 14:36:17 - <Config> - luajit states preallocated: 128
+12/8/2021 -- 14:36:17 - <Config> - 'default' server has 'request-body-minimal-inspect-size' set to 31403 and 'request-body-inspect-window' set to 4039 after randomization.
+12/8/2021 -- 14:36:17 - <Config> - 'default' server has 'response-body-minimal-inspect-size' set to 40824 and 'response-body-inspect-window' set to 16759 after randomization.
+12/8/2021 -- 14:36:17 - <Config> - SMB stream depth: 0
+12/8/2021 -- 14:36:17 - <Config> - Protocol detection and parser disabled for modbus protocol.
+12/8/2021 -- 14:36:17 - <Config> - Protocol detection and parser disabled for enip protocol.
+12/8/2021 -- 14:36:17 - <Config> - Protocol detection and parser disabled for DNP3.
+12/8/2021 -- 14:36:17 - <Info> - Found an MTU of 9001 for 'eth0'
+12/8/2021 -- 14:36:17 - <Info> - Found an MTU of 9001 for 'eth0'

@@ -1,0 +1,294 @@
+12/8/2021 -- 14:36:17 - <Notice> - This is Suricata version 6.0.3 RELEASE running in SYSTEM mode
+12/8/2021 -- 14:36:17 - <Info> - CPUs/cores online: 1
+12/8/2021 -- 14:36:17 - <Config> - Adding interface eth0 from config file
+12/8/2021 -- 14:36:17 - <Config> - luajit states preallocated: 128
+12/8/2021 -- 14:36:17 - <Config> - 'default' server has 'request-body-minimal-inspect-size' set to 31403 and 'request-body-inspect-window' set to 4039 after randomization.
+12/8/2021 -- 14:36:17 - <Config> - 'default' server has 'response-body-minimal-inspect-size' set to 40824 and 'response-body-inspect-window' set to 16759 after randomization.
+12/8/2021 -- 14:36:17 - <Config> - SMB stream depth: 0
+12/8/2021 -- 14:36:17 - <Config> - Protocol detection and parser disabled for modbus protocol.
+12/8/2021 -- 14:36:17 - <Config> - Protocol detection and parser disabled for enip protocol.
+12/8/2021 -- 14:36:17 - <Config> - Protocol detection and parser disabled for DNP3.
+12/8/2021 -- 14:36:17 - <Info> - Found an MTU of 9001 for 'eth0'
+12/8/2021 -- 14:36:17 - <Info> - Found an MTU of 9001 for 'eth0'
+12/8/2021 -- 14:36:17 - <Config> - allocated 262144 bytes of memory for the host hash... 4096 buckets of size 64
+12/8/2021 -- 14:36:17 - <Config> - preallocated 1000 hosts of size 136
+12/8/2021 -- 14:36:17 - <Config> - host memory usage: 398144 bytes, maximum: 33554432
+12/8/2021 -- 14:36:17 - <Config> - Core dump size set to unlimited.
+12/8/2021 -- 14:36:17 - <Config> - allocated 3670016 bytes of memory for the defrag hash... 65536 buckets of size 56
+12/8/2021 -- 14:36:17 - <Config> - preallocated 65535 defrag trackers of size 160
+12/8/2021 -- 14:36:17 - <Config> - defrag memory usage: 14155616 bytes, maximum: 33554432
+12/8/2021 -- 14:36:17 - <Config> - flow size 320, memcap allows for 419430 flows. Per hash row in perfect conditions 6
+12/8/2021 -- 14:36:17 - <Config> - stream "prealloc-sessions": 2048 (per thread)
+12/8/2021 -- 14:36:17 - <Config> - stream "memcap": 67108864
+12/8/2021 -- 14:36:17 - <Config> - stream "midstream" session pickups: disabled
+12/8/2021 -- 14:36:17 - <Config> - stream "async-oneside": disabled
+12/8/2021 -- 14:36:17 - <Config> - stream "checksum-validation": enabled
+12/8/2021 -- 14:36:17 - <Config> - stream."inline": disabled
+12/8/2021 -- 14:36:17 - <Config> - stream "bypass": disabled
+12/8/2021 -- 14:36:17 - <Config> - stream "max-synack-queued": 5
+12/8/2021 -- 14:36:17 - <Config> - stream.reassembly "memcap": 268435456
+12/8/2021 -- 14:36:17 - <Config> - stream.reassembly "depth": 1048576
+12/8/2021 -- 14:36:17 - <Config> - stream.reassembly "toserver-chunk-size": 2542
+12/8/2021 -- 14:36:17 - <Config> - stream.reassembly "toclient-chunk-size": 2601
+12/8/2021 -- 14:36:17 - <Config> - stream.reassembly.raw: enabled
+12/8/2021 -- 14:36:17 - <Config> - stream.reassembly "segment-prealloc": 2048
+12/8/2021 -- 14:36:17 - <Info> - fast output device (regular) initialized: fast.log
+12/8/2021 -- 14:36:17 - <Info> - eve-log output device (regular) initialized: eve.json
+12/8/2021 -- 14:36:17 - <Config> - enabling 'eve-log' module 'alert'
+12/8/2021 -- 14:36:17 - <Config> - enabling 'eve-log' module 'anomaly'
+12/8/2021 -- 14:36:17 - <Config> - enabling 'eve-log' module 'http'
+12/8/2021 -- 14:36:17 - <Config> - enabling 'eve-log' module 'dns'
+12/8/2021 -- 14:36:17 - <Config> - eve-log dns version not set, defaulting to version 2
+12/8/2021 -- 14:36:17 - <Config> - eve-log dns version not set, defaulting to version 2
+12/8/2021 -- 14:36:17 - <Config> - enabling 'eve-log' module 'tls'
+12/8/2021 -- 14:36:17 - <Config> - enabling 'eve-log' module 'files'
+12/8/2021 -- 14:36:17 - <Config> - enabling 'eve-log' module 'smtp'
+12/8/2021 -- 14:36:17 - <Config> - enabling 'eve-log' module 'ftp'
+12/8/2021 -- 14:36:17 - <Config> - enabling 'eve-log' module 'rdp'
+12/8/2021 -- 14:36:17 - <Config> - enabling 'eve-log' module 'nfs'
+12/8/2021 -- 14:36:17 - <Config> - enabling 'eve-log' module 'smb'
+12/8/2021 -- 14:36:17 - <Config> - enabling 'eve-log' module 'tftp'
+12/8/2021 -- 14:36:17 - <Config> - enabling 'eve-log' module 'ikev2'
+12/8/2021 -- 14:36:17 - <Config> - enabling 'eve-log' module 'dcerpc'
+12/8/2021 -- 14:36:17 - <Config> - enabling 'eve-log' module 'krb5'
+12/8/2021 -- 14:36:17 - <Config> - enabling 'eve-log' module 'snmp'
+12/8/2021 -- 14:36:17 - <Config> - enabling 'eve-log' module 'rfb'
+12/8/2021 -- 14:36:17 - <Config> - enabling 'eve-log' module 'sip'
+12/8/2021 -- 14:36:17 - <Config> - enabling 'eve-log' module 'dhcp'
+12/8/2021 -- 14:36:17 - <Config> - enabling 'eve-log' module 'ssh'
+12/8/2021 -- 14:36:17 - <Config> - enabling 'eve-log' module 'mqtt'
+12/8/2021 -- 14:36:17 - <Config> - enabling 'eve-log' module 'stats'
+12/8/2021 -- 14:36:17 - <Config> - enabling 'eve-log' module 'flow'
+12/8/2021 -- 14:36:17 - <Info> - stats output device (regular) initialized: stats.log
+12/8/2021 -- 14:36:17 - <Config> - Delayed detect disabled
+12/8/2021 -- 14:36:17 - <Info> - Running in live mode, activating unix socket
+12/8/2021 -- 14:36:17 - <Config> - pattern matchers: MPM: hs, SPM: hs
+12/8/2021 -- 14:36:17 - <Config> - grouping: tcp-whitelist (default) 53, 80, 139, 443, 445, 1433, 3306, 3389, 6666, 6667, 8080
+12/8/2021 -- 14:36:17 - <Config> - grouping: udp-whitelist (default) 53, 135, 5060
+12/8/2021 -- 14:36:17 - <Config> - prefilter engines: MPM
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_uri
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_uri
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_raw_uri
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_raw_uri
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_request_line
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_client_body
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_response_line
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_header
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_header
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_header_names
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_header_names
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_accept
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_accept
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_accept_enc
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_accept_enc
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_accept_lang
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_accept_lang
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_referer
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_referer
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_connection
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_connection
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_content_len
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_content_len
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_content_len
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_content_len
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_content_type
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_content_type
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_content_type
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_content_type
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http.server
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http.server
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http.location
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http.location
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_protocol
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_protocol
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_start
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_start
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_raw_header
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_raw_header
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_method
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_method
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_cookie
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_cookie
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_cookie
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_cookie
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for file.name
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for file.name
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for file.name
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for file.name
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for file.name
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for file.name
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for file.name
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for file.name
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for file.name
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for file.name
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for file.name
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for file.magic
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for file.magic
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for file.magic
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for file.magic
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for file.magic
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for file.magic
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for file.magic
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for file.magic
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for file.magic
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for file.magic
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for file.magic
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_user_agent
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_user_agent
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_host
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_raw_host
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_raw_host
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_stat_msg
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_stat_code
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http_stat_code
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http2_header_name
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http2_header_name
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http2_header
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for http2_header
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for dns_query
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for dnp3_data
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for dnp3_data
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for tls.sni
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for tls.cert_issuer
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for tls.cert_subject
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for tls.cert_serial
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for tls.cert_fingerprint
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for tls.certs
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for ja3.hash
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for ja3.string
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for ja3s.hash
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for ja3s.string
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for dce_stub_data
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for dce_stub_data
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for dce_stub_data
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for dce_stub_data
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for smb_named_pipe
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for smb_share
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for ssh.proto
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for ssh.proto
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for ssh_software
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for ssh_software
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for ssh.hassh
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for ssh.hassh.server
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for ssh.hassh.string
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for ssh.hassh.server.string
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for file_data
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for file_data
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for file_data
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for file_data
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for file_data
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for file_data
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for krb5_cname
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for krb5_sname
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for sip.method
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for sip.uri
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for sip.protocol
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for sip.protocol
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for sip.method
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for sip.stat_msg
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for sip.request_line
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for sip.response_line
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for rfb.name
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for snmp.community
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for snmp.community
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for mqtt.connect.clientid
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for mqtt.connect.username
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for mqtt.connect.password
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for mqtt.connect.willtopic
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for mqtt.connect.willmessage
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for mqtt.publish.topic
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for mqtt.publish.message
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for mqtt.subscribe.topic
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for mqtt.unsubscribe.topic
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for icmpv4.hdr
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for tcp.hdr
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for udp.hdr
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for icmpv6.hdr
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for ipv4.hdr
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for ipv6.hdr
+12/8/2021 -- 14:36:17 - <Config> - IP reputation disabled
+12/8/2021 -- 14:36:17 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+12/8/2021 -- 14:36:17 - <Config> - No rules loaded from suricata.rules.
+12/8/2021 -- 14:36:17 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+12/8/2021 -- 14:36:17 - <Info> - Threshold config parsed: 0 rule(s) found
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for tcp-packet
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for tcp-stream
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for udp-packet
+12/8/2021 -- 14:36:17 - <Perf> - using shared mpm ctx' for other-ip
+12/8/2021 -- 14:36:17 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+12/8/2021 -- 14:36:17 - <Config> - building signature grouping structure, stage 1: preprocessing rules... complete
+12/8/2021 -- 14:36:17 - <Perf> - TCP toserver: 0 port groups, 0 unique SGH's, 0 copies
+12/8/2021 -- 14:36:17 - <Perf> - TCP toclient: 0 port groups, 0 unique SGH's, 0 copies
+12/8/2021 -- 14:36:17 - <Perf> - UDP toserver: 0 port groups, 0 unique SGH's, 0 copies
+12/8/2021 -- 14:36:17 - <Perf> - UDP toclient: 0 port groups, 0 unique SGH's, 0 copies
+12/8/2021 -- 14:36:17 - <Perf> - OTHER toserver: 0 proto groups, 0 unique SGH's, 0 copies
+12/8/2021 -- 14:36:17 - <Perf> - OTHER toclient: 0 proto groups, 0 unique SGH's, 0 copies
+12/8/2021 -- 14:36:17 - <Perf> - Unique rule groups: 0
+12/8/2021 -- 14:36:17 - <Perf> - Builtin MPM "toserver TCP packet": 0
+12/8/2021 -- 14:36:17 - <Perf> - Builtin MPM "toclient TCP packet": 0
+12/8/2021 -- 14:36:17 - <Perf> - Builtin MPM "toserver TCP stream": 0
+12/8/2021 -- 14:36:17 - <Perf> - Builtin MPM "toclient TCP stream": 0
+12/8/2021 -- 14:36:17 - <Perf> - Builtin MPM "toserver UDP packet": 0
+12/8/2021 -- 14:36:17 - <Perf> - Builtin MPM "toclient UDP packet": 0
+12/8/2021 -- 14:36:17 - <Perf> - Builtin MPM "other IP packet": 0
+12/8/2021 -- 14:36:17 - <Config> - Using flow cluster mode for AF_PACKET (iface eth0)
+12/8/2021 -- 14:36:17 - <Config> - Using defrag kernel functionality for AF_PACKET (iface eth0)
+12/8/2021 -- 14:36:17 - <Perf> - 1 cores, so using 1 threads
+12/8/2021 -- 14:36:17 - <Perf> - Using 1 AF_PACKET threads for interface eth0
+12/8/2021 -- 14:36:17 - <Perf> - eth0: disabling gro offloading
+12/8/2021 -- 14:36:17 - <Perf> - eth0: disabling tso offloading
+12/8/2021 -- 14:36:17 - <Perf> - eth0: disabling gso offloading
+12/8/2021 -- 14:36:17 - <Perf> - eth0: disabling sg offloading
+12/8/2021 -- 14:36:17 - <Config> - eth0: enabling zero copy mode by using data release call
+12/8/2021 -- 14:36:17 - <Info> - Going to use 1 thread(s)
+12/8/2021 -- 14:36:17 - <Config> - using 1 flow manager threads
+12/8/2021 -- 14:36:17 - <Config> - using 1 flow recycler threads
+12/8/2021 -- 14:36:17 - <Info> - Running in live mode, activating unix socket
+12/8/2021 -- 14:36:17 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+12/8/2021 -- 14:36:17 - <Notice> - all 1 packet processing threads, 4 management threads initialized, engine started.
+12/8/2021 -- 14:36:17 - <Perf> - AF_PACKET RX Ring params: block_size=32768 block_nr=683 frame_size=9104 frame_nr=2049
+12/8/2021 -- 14:36:17 - <Info> - All AFP capture threads are running.
+12/8/2021 -- 14:38:17 - <Notice> - This is Suricata version 6.0.3 RELEASE running in SYSTEM mode
+12/8/2021 -- 14:38:17 - <Info> - CPUs/cores online: 1
+12/8/2021 -- 14:38:17 - <Info> - Found an MTU of 1500 for 'eth0'
+12/8/2021 -- 14:38:17 - <Info> - Found an MTU of 1500 for 'eth0'
+12/8/2021 -- 14:38:17 - <Info> - fast output device (regular) initialized: fast.log
+12/8/2021 -- 14:38:17 - <Info> - eve-log output device (regular) initialized: eve.json
+12/8/2021 -- 14:38:17 - <Info> - stats output device (regular) initialized: stats.log
+12/8/2021 -- 14:38:17 - <Info> - Running in live mode, activating unix socket
+12/8/2021 -- 14:38:17 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+12/8/2021 -- 14:38:17 - <Info> - 2 rule files processed. 20 rules successfully loaded, 0 rules failed
+12/8/2021 -- 14:38:17 - <Info> - Threshold config parsed: 0 rule(s) found
+12/8/2021 -- 14:38:17 - <Info> - 20 signatures processed. 0 are IP-only rules, 9 are inspecting packet payload, 11 inspect application layer, 0 are decoder event only
+12/8/2021 -- 14:38:17 - <Info> - Going to use 1 thread(s)
+12/8/2021 -- 14:38:18 - <Info> - Running in live mode, activating unix socket
+12/8/2021 -- 14:38:18 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+12/8/2021 -- 14:38:18 - <Notice> - all 1 packet processing threads, 4 management threads initialized, engine started.
+12/8/2021 -- 14:38:18 - <Info> - All AFP capture threads are running.
+12/8/2021 -- 14:39:10 - <Notice> - Signal Received.  Stopping engine.
+12/8/2021 -- 14:39:10 - <Info> - time elapsed 52.991s
+12/8/2021 -- 14:39:11 - <Info> - Alerts: 0
+12/8/2021 -- 14:39:11 - <Info> - cleaning up signature grouping structure... complete
+12/8/2021 -- 14:39:11 - <Notice> - Stats for 'eth0':  pkts: 288, drop: 0 (0.00%), invalid chksum: 0
+12/8/2021 -- 14:39:14 - <Notice> - This is Suricata version 6.0.3 RELEASE running in SYSTEM mode
+12/8/2021 -- 14:39:14 - <Info> - CPUs/cores online: 1
+12/8/2021 -- 14:39:15 - <Info> - Found an MTU of 1500 for 'eth0'
+12/8/2021 -- 14:39:15 - <Info> - Found an MTU of 1500 for 'eth0'
+12/8/2021 -- 14:39:15 - <Info> - fast output device (regular) initialized: fast.log
+12/8/2021 -- 14:39:15 - <Info> - eve-log output device (regular) initialized: eve.json
+12/8/2021 -- 14:39:15 - <Info> - stats output device (regular) initialized: stats.log
+12/8/2021 -- 14:39:15 - <Info> - Running in live mode, activating unix socket
+12/8/2021 -- 14:39:15 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+12/8/2021 -- 14:39:15 - <Info> - 2 rule files processed. 20 rules successfully loaded, 0 rules failed
+12/8/2021 -- 14:39:15 - <Info> - Threshold config parsed: 0 rule(s) found
+12/8/2021 -- 14:39:15 - <Info> - 20 signatures processed. 0 are IP-only rules, 9 are inspecting packet payload, 11 inspect application layer, 0 are decoder event only
+12/8/2021 -- 14:39:15 - <Info> - Going to use 1 thread(s)
+12/8/2021 -- 14:39:15 - <Info> - Running in live mode, activating unix socket
+12/8/2021 -- 14:39:15 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+12/8/2021 -- 14:39:15 - <Notice> - all 1 packet processing threads, 4 management threads initialized, engine started.
+12/8/2021 -- 14:39:15 - <Info> - All AFP capture threads are running.
+12/8/2021 -- 14:39:21 - <Notice> - Signal Received.  Stopping engine.
+12/8/2021 -- 14:39:21 - <Info> - time elapsed 6.647s
+12/8/2021 -- 14:39:21 - <Info> - Alerts: 0
+12/8/2021 -- 14:39:21 - <Info> - cleaning up signature grouping structure... complete
+12/8/2021 -- 14:39:21 - <Notice> - Stats for 'eth0':  pkts: 15, drop: 0 (0.00%), invalid chksum: 0
